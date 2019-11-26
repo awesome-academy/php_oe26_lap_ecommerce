@@ -1,0 +1,30 @@
+{
+  "name": "php_oe26_lap_ecommerce",
+  "description": "",
+  "main": "",
+  "authors": [
+    "hoanghuetm <kidinu@hotmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/hoanghuetm/php_oe26_lap_ecommerce",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "v3.3.7",
+    "jquery": "jQuery#2.1.1",
+    "pixeden-stroke-7-icon": "bower-pe-icon#^1.2.3",
+    "simple-line-icons": "simple-icon#^2.4.1",
+    "owl.carousel": "owl-pack#^2.3.4",
+    "jtv-menu": "*",
+    "countdown": "^2.2.0",
+    "slider-rev": "*",
+    "font-awesome": "fontawesome#v4.7.0",
+    "bower-ad": "*"
+  }
+}
