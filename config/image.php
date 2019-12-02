@@ -8,4 +8,5 @@ return [
     'pay-2' => asset('storage/images/payment-2.png'),
     'pay-3' => asset('storage/images/payment-3.png'),
     'pay-4' => asset('storage/images/payment-4.png'),
+    'ico' => asset('storage/images/favicon.ico'),
 ];
