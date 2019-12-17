@@ -26,7 +26,7 @@ class AppServiceProvider extends ServiceProvider
     public function boot()
     {
         $cat = new CategoryController();
-        $categories = $cat->getSubCategories(1);
+        $categories = $cat->getSubCategories(config('number.root'));
         View::share('categories', $categories);
     }
 }

@@ -23,19 +23,19 @@
                                 <div class="block jtv-language-block">
                                     <div class="lg-cur">
                                         <span>
-                                            <img src="{{ config('image.vn') }}" alt="@lang('header.vn')">
+                                            <img src="{{ asset(config('image.vn')) }}" alt="@lang('header.vn')">
                                             <span class="lg-fr">@lang('header.vn')</span>
                                             <i class="fa fa-angle-down"></i>
                                         </span>
                                     </div>
                                     <ul>
                                         <li>
-                                            <a href="#"><img src="{{ config('image.en') }}" alt="@lang('header.en')">
+                                            <a href="#"><img src="{{ asset(config('image.en')) }}" alt="@lang('header.en')">
                                                 <span>@lang('header.en')</span>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#"><img src="{{ config('image.vn') }}" alt="@lang('header.vn')">
+                                            <a href="#"><img src="{{ asset(config('image.vn')) }}" alt="@lang('header.vn')">
                                                 <span>@lang('header.vn')</span>
                                             </a>
                                         </li>
@@ -62,7 +62,7 @@
                 <div class="row">
                     <div class="col-md-12 col-sm-12 col-xs-12 jtv-logo-block">
                         <div class="logo">
-                            <a href="{{ route('home.index') }}"><img src="{{ config('image.logo') }}"></a>
+                            <a href="{{ route('home.index') }}"><img src="{{ asset(config('image.logo')) }}"></a>
                         </div>
                         <!-- Navbar -->
                         <div class="nav-inner">

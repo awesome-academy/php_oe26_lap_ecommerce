@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc6cd389-f857-41d9-815a-48bb2865e9a5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Client/CategoryController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Client/HomeController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/seeds/CategoriesTableSeeder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Client/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Client/HomeController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/image.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/image.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/shop.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/shop.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/client/layouts/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/client/layouts/footer.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/client/layouts/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/client/layouts/header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/client/layouts/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/client/layouts/master.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,11 +127,13 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/Models" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/lang/en" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/lang/en" />
+      <recent name="$PROJECT_DIR$/resources/views/client" />
       <recent name="$PROJECT_DIR$/database/migrations" />
     </key>
   </component>
@@ -187,5 +191,9 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="726" y="310" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1575275422926" />
+    <state x="786" y="477" width="404" height="151" key="NewPhpFileDialog" timestamp="1576598434537">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="786" y="477" width="404" height="151" key="NewPhpFileDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1576598434537" />
   </component>
 </project>
