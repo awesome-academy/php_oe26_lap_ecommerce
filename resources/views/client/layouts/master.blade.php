@@ -14,7 +14,7 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="shortcut icon" type="image/x-icon" href="{{ config('image.ico') }}">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ asset(config('image.ico')) }}">
 
     <link rel="stylesheet" href="{{ asset('bower_components/client_bower/bootstrap/dist/css/bootstrap.min.css') }}">
 
@@ -53,6 +53,6 @@
 
     <script src="{{ asset('bower_components/client_bower/slider-rev/rev-slider.js') }}"></script>
 
-    <script src="{{ asset('js/app.js') }}"></script>
+    <script src="{{ asset('js/main.js') }}"></script>
 
 </body>

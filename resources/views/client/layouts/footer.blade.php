@@ -2,7 +2,7 @@
 <footer>
     <div class="footer-top">
         <div class="text-center">
-            <a href="{{ route('home.index') }}"><img class="img-responsive" src="{{ config('image.footer-logo') }}"></a>
+            <a href="{{ route('home.index') }}"><img class="img-responsive" src="{{ asset(config('image.footer-logo')) }}"></a>
         </div>
         <div class="container">
             <div class="row">
@@ -39,10 +39,10 @@
                 </div>
                 <div class="col-sm-5 col-md-6 col-xs-12 payment-accept">
                     <ul>
-                        <li><a href="#"><img class="img-responsive" src="{{ config('image.pay-1') }}" alt="@lang('shop.card')"></a></li>
-                        <li><a href="#"><img class="img-responsive" src="{{ config('image.pay-2') }}" alt="@lang('shop.card')"></a></li>
-                        <li><a href="#"><img class="img-responsive" src="{{ config('image.pay-3') }}" alt="@lang('shop.card')"></a></li>
-                        <li><a href="#"><img class="img-responsive" src="{{ config('image.pay-4') }}" alt="@lang('shop.card')"></a></li>
+                        <li><a href="#"><img class="img-responsive" src="{{ asset(config('image.pay-1')) }}" alt="@lang('shop.card')"></a></li>
+                        <li><a href="#"><img class="img-responsive" src="{{ asset(config('image.pay-2')) }}" alt="@lang('shop.card')"></a></li>
+                        <li><a href="#"><img class="img-responsive" src="{{ asset(config('image.pay-3')) }}" alt="@lang('shop.card')"></a></li>
+                        <li><a href="#"><img class="img-responsive" src="{{ asset(config('image.pay-4')) }}" alt="@lang('shop.card')"></a></li>
                     </ul>
                 </div>
             </div>
