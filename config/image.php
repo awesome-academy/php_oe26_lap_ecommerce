@@ -12,4 +12,5 @@ return [
     'slide-1' => 'storage/images/slider/slide-img1.jpg',
     'slide-2' => 'storage/images/slider/slide-img2.jpg',
     'slide-3' => 'storage/images/slider/slide-img1.jpg',
+    'prd' => 'storage/images/products/img01.jpg',
 ];

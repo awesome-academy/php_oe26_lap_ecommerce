@@ -13,7 +13,8 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', [
-    'as' => 'home.index',
-    'uses' => 'HomeController@index'
-]);
+Route::get('/','HomeController@index')->name('home.index');
+
+Route::prefix('categories')->group(function (){
+    Route::get('/{id}','CategoryController@show')->name('home.categories.show');
+});
