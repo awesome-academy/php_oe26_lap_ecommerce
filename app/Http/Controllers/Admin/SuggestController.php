@@ -27,7 +27,7 @@ class SuggestController extends Controller
 
     public function index()
     {
-        $suggests =$this->suggestRepository->getAll();
+        $suggests = $this->suggestRepository->getAll();
         return view('admin.suggests.index', compact('suggests'));
     }
 
