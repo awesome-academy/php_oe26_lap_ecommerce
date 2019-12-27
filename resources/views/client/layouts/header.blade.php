@@ -68,15 +68,15 @@
                         <div class="nav-inner">
                             <ul id="nav" class="hidden-xs hidden-sm">
                                 @foreach ($categories as $cate1)
-                                <li class="level-a drop-menu"><a href="#"><span>{{ $cate1->name }}</span></a>
+                                <li class="level-a drop-menu"><a href="{{ route('home.categories.show', $cate1->id) }}"><span>{{ $cate1->name }}</span></a>
                                     @if ($cate1->sub->count())
                                     <ul class="level-b">
                                         @foreach ($cate1->sub as $cate2)
-                                        <li class="level-b"><a href="#"><span>{{ $cate2->name }}</span></a>
+                                        <li class="level-b"><a href="{{ route('home.categories.show', $cate2->id) }}"><span>{{ $cate2->name }}</span></a>
                                             @if ($cate2->sub->count())
                                             <ul class="level-c right-sub">
                                                 @foreach ($cate2->sub as $cate3)
-                                                    <li class="level-c"><a href="#"><span>{{ $cate3->name }}</span></a></li>
+                                                    <li class="level-c"><a href="{{ route('home.categories.show', $cate3->id) }}"><span>{{ $cate3->name }}</span></a></li>
                                                 @endforeach
                                             </ul>
                                             @endif
