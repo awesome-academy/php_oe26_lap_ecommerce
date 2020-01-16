@@ -36,4 +36,45 @@
         </div>
     </div>
 
+    <div class="content-page">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-xs-12 col-sm-12">
+                    <div class="category-product">
+                        <div class="navbar nav-menu">
+                            <div class="navbar-collapse">
+                                <ul class="nav navbar-nav">
+                                    <li class="active"><a data-toggle="tab" href="#tab-1">@lang('product.new')</a></li>
+                                    <li class="tab-action"><a data-toggle="tab" href="#tab-2">@lang('product.hot')</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="tab-container">
+                            <div class="tab-panel active" id="tab-1">
+                                <div class="category-products">
+                                    <ul class="products-grid">
+                                        @include('client.products.news')
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="tab-panel" id="tab-2">
+                                <div class="category-products">
+                                    <ul class="products-grid">
+                                        @include('client.products.hots')
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sidebar col-sm-3 col-xs-12">
+                    @include('client.layouts.sidebar')
+                </div>
+            </div>
+            @if ($recents != null)
+                @include('client.products.recent')
+            @endif
+        </div>
+    </div>
+
 @endsection

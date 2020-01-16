@@ -19,5 +19,8 @@ return [
     'slide2' => 'The power to delight all day long experience',
     'address' => '9F HTP Building, 434 Tran Khat Chan, Ha Noi',
     'follow' => 'Follow Us',
-    'card' => 'Card',
+    'new' => 'new',
+    'act' => 'Action',
+    'sub' => 'Submit',
+    'check' => 'Check your Orders',
 ];
